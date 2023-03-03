@@ -2,7 +2,7 @@ if(SpoiledMilk === undefined) var SpoiledMilk = {};
 SpoiledMilk.name = 'Spoiled Milk';
 SpoiledMilk.id = 'SpoiledMilk';
 SpoiledMilk.version = '1.0';
-SpoiledMilk.GameVersion = '2.042';
+SpoiledMilk.GameVersion = '2.048';
 
 SpoiledMilk.launch = function(){
   SpoiledMilk.init = function(){
