@@ -8,7 +8,7 @@ SpoiledMilk.launch = function(){
   SpoiledMilk.init = function(){
     let dir = CCSE.GetModPath(SpoiledMilk.id);
 
-    CCSE.NewMilkSelection("Beans milk", [21,23], dir + "/img/milkBeans.png");
+    CCSE.NewMilkSelection("Beans milk", [21,23], dir + "https://github.com/STANTHECHEESEMAN/yabadaba/blob/main/SpoiledMilk/img/milkBeans.png");
   
     SpoiledMilk.isLoaded = 1;
     if (Game.prefs.popups) Game.Popup(SpoiledMilk.name + ' loaded!');
